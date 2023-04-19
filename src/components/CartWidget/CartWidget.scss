@@ -1,0 +1,21 @@
+
+.cart-widget-icon{
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+
+}
+span{
+    font-size: 15px;
+    
+}
+.cart-widget-empty{
+    opacity: 0;
+    transition: opacity 1   s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+.cart-widget-empty.visible {
+    opacity: 1;
+}
